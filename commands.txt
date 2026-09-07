@@ -1,0 +1,3 @@
+npx create-expo-app react –-template 
+cd app-reactapp npx expo install react-native-web react-dom @expo/metro-runtime 
+npx expo start
