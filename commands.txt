@@ -1,3 +1,5 @@
 npx create-expo-app react –-template 
 cd app-reactapp npx expo install react-native-web react-dom @expo/metro-runtime 
 npx expo start
+npm install @react-navigation/native @react-navigation/stack
+npx expo install react-native-screens react-native-safe-area-context
