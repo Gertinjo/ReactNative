@@ -2,12 +2,14 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import MainScreen from './screen/MainScreen';
 import ListScreen from './screen/ListScreen';
+import PersonalScreen from './screen/PersonalScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
         {/* <MainScreen/> */}
-        <ListScreen/>
+        {/* <ListScreen/> */}
+        <PersonalScreen/>
     </View>
   );
 }
