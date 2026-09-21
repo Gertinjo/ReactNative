@@ -1,6 +1,6 @@
 import React from "react";
 import {Text, StyleSheet, View, FlatList} from 'react-native'
-import { Image } from "react-native-web";
+
 
 const students = [
     {name: 'Gerti', surname:'Calaj', age: '13', dateofbirth:'28/06/26',hobbys:'Programming, Football, Aviation', favoriteclub:'Chelsea Fc'},

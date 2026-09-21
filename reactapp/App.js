@@ -3,14 +3,16 @@ import { StyleSheet, Text, View } from 'react-native';
 import MainScreen from './screen/MainScreen';
 import ListScreen from './screen/ListScreen';
 import PersonalScreen from './screen/PersonalScreen';
+import ExampleScree from './screen/ExampleScree';
 
 export default function App() {
   return (
     <View style={styles.container}>
         {/* <MainScreen/> */}
         {/* <ListScreen/> */}
-        <PersonalScreen/>
-    </View>
+        {/* <PersonalScreen/> */}
+        <ExampleScree/>
+        </View>
   );
 }
 
