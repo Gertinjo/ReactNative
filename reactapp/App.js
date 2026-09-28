@@ -5,6 +5,7 @@ import ListScreen from './screen/ListScreen';
 import PersonalScreen from './screen/PersonalScreen';
 import ExampleScree from './screen/ExampleScree';
 import ButtonScreen from './screen/ButtonScreen';
+import StudentsScreen from './screen/StudentsScreen';
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
         {/* <ListScreen/> */}
         {/* <PersonalScreen/> */}
         {/* <ExampleScree/> */}
-        <ButtonScreen/>
+        {/* <ButtonScreen/> */}
+        <StudentsScreen/>
         </View>
   );
 }
