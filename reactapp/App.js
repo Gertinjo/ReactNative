@@ -8,6 +8,9 @@ import ButtonScreen from './screen/ButtonScreen';
 import StudentScreen from './screen/StudentScreen';
 import StudentsScreen from './screen/StudentsScreen';
 import BoxScreen from './screen/BoxScreen';
+import PostScreen from './screen/PostScreen';
+import PhotoScreen from './screen/PhotoScreen';
+import UserScreen from './screen/UserScreen';
 
 export default function App() {
   return (
@@ -19,7 +22,10 @@ export default function App() {
         {/* <ButtonScreen/> */}
         {/* <StudentsScreen/> */}
         {/* <StudentScreen/>   */}
-        <PostScreen/>
+        {/* <PostScreen/> */}
+        {/* <PhotoScreen/> */}
+        {/* <PhotoScreen/> */}
+        <UserScreen/>
         </View>
   );
 }
