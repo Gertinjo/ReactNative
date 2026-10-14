@@ -11,6 +11,7 @@ import BoxScreen from './screen/BoxScreen';
 import PostScreen from './screen/PostScreen';
 import PhotoScreen from './screen/PhotoScreen';
 import UserScreen from './screen/UserScreen';
+import DataScreen from './screen/DataScreen';
 
 export default function App() {
   return (
@@ -25,7 +26,8 @@ export default function App() {
         {/* <PostScreen/> */}
         {/* <PhotoScreen/> */}
         {/* <PhotoScreen/> */}
-        <UserScreen/>
+        {/* <UserScreen/> */}
+        <DataScreen/>
         </View>
   );
 }

@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "name": "Alex Johnson",
+      "email": "alex.johnson@example.com",
+      "age": 25,
+      "address": "123 Maple Street, Springfield"
+    },
+    {
+      "id": 2,
+      "name": "Emma Williams",
+      "email": "emma.williams@example.com",
+      "age": 30,
+      "address": "456 Oak Avenue, Riverton"
+    },
+    {
+      "id": 3,
+      "name": "Liam Brown",
+      "email": "liam.brown@example.com",
+      "age": 28,
+      "address": "789 Pine Road, Fairview"
+    },
+    {
+      "id": 4,
+      "name": "Olivia Davis",
+      "email": "olivia.davis@example.com",
+      "age": 22,
+      "address": "321 Cedar Lane, Lakewood"
+    },
+    {
+      "id": 5,
+      "name": "Noah Wilson",
+      "email": "noah.wilson@example.com",
+      "age": 35,
+      "address": "654 Birch Drive, Greenville"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@example.com",
+      "age": 27,
+      "address": "987 Elm Street, Brookfield"
+    },
+    {
+      "id": 7,
+      "name": "James Anderson",
+      "email": "james.anderson@example.com",
+      "age": 31,
+      "address": "147 Willow Court, Ashton"
+    },
+    {
+      "id": 8,
+      "name": "Isabella Taylor",
+      "email": "isabella.taylor@example.com",
+      "age": 24,
+      "address": "258 Cherry Boulevard, Madison"
+    },
+    {
+      "id": 9,
+      "name": "Benjamin Thomas",
+      "email": "benjamin.thomas@example.com",
+      "age": 40,
+      "address": "369 Walnut Way, Oakville"
+    },
+    {
+      "id": 10,
+      "name": "Mia Robinson",
+      "email": "mia.robinson@example.com",
+      "age": 29,
+      "address": "741 Aspen Circle, Westfield"
+    }
+]
