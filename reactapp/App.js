@@ -12,7 +12,7 @@ import PostScreen from './screen/PostScreen';
 import PhotoScreen from './screen/PhotoScreen';
 import UserScreen from './screen/UserScreen';
 import DataScreen from './screen/DataScreen';
-
+import LocalScreen from './screen/LocalScreen';
 export default function App() {
   return (
     <View style={styles.container}>
@@ -27,7 +27,8 @@ export default function App() {
         {/* <PhotoScreen/> */}
         {/* <PhotoScreen/> */}
         {/* <UserScreen/> */}
-        <DataScreen/>
+        {/* <DataScreen/> */}
+        <LocalScreen/>
         </View>
   );
 }

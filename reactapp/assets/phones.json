@@ -1,0 +1,76 @@
+
+[
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S24",
+    "category": "phone",
+    "price": "$700",
+    "stock": "Yes",
+    "image": "samsung-s24.jpg",
+    "description": "Samsung smartphone with a high-quality display and advanced camera."
+  },
+  {
+    "id": 3,
+    "name": "MacBook Air M2",
+    "category": "laptop",
+    "price": "$999",
+    "stock": "Yes",
+    "image": "macbook-air-m2.jpg",
+    "description": "Lightweight Apple laptop powered by the M2 chip."
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 15",
+    "category": "laptop",
+    "price": "$1200",
+    "stock": "Yes",
+    "image": "dell-xps-15.jpg",
+    "description": "High-performance laptop for work and everyday productivity."
+  },
+  {
+    "id": 5,
+    "name": "iPad Pro",
+    "category": "tablet",
+    "price": "$899",
+    "stock": "No",
+    "image": "ipad-pro.jpg",
+    "description": "Powerful tablet with a large display for creativity and productivity."
+  },
+  {
+    "id": 6,
+    "name": "AirPods Pro",
+    "category": "accessory",
+    "price": "$249",
+    "stock": "Yes",
+    "image": "airpods-pro.jpg",
+    "description": "Wireless earbuds with active noise cancellation."
+  },
+  {
+    "id": 7,
+    "name": "Sony WH-1000XM5",
+    "category": "headphones",
+    "price": "$349",
+    "stock": "Yes",
+    "image": "sony-wh1000xm5.jpg",
+    "description": "Wireless headphones with premium noise cancellation."
+  },
+  {
+    "id": 8,
+    "name": "Apple Watch Series 9",
+    "category": "smartwatch",
+    "price": "$399",
+    "stock": "Yes",
+    "image": "apple-watch-series-9.jpg",
+    "description": "Smartwatch with fitness tracking and health features."
+  },
+  {
+    "id": 9,
+    "name": "PlayStation 5",
+    "category": "gaming",
+    "price": "$499",
+    "stock": "No",
+    "image": "playstation-5.jpg",
+    "description": "Gaming console with high-performance graphics and immersive gameplay."
+  }
+]
+  
