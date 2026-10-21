@@ -32,8 +32,6 @@ const ProductsScreen = ({ setScreen }) => {
                 price="500"
                 stock="yes"
             /> 
-            
-            {/* Change navigation.navigate to setScreen('Details') */}
             <Button
                 title="View Details"
                 color="green"
