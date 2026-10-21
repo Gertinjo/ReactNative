@@ -1,3 +1,4 @@
+import React, { useState } from 'react'; // Added useState here
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import MainScreen from './screen/MainScreen';
@@ -13,7 +14,13 @@ import PhotoScreen from './screen/PhotoScreen';
 import UserScreen from './screen/UserScreen';
 import DataScreen from './screen/DataScreen';
 import LocalScreen from './screen/LocalScreen';
+import ProductsScreen from './screen/ProductsScreen';
+import ProductsDetailScreen from './screen/ProductsDetailScreen'; // Added this import
+
 export default function App() {
+  // Track which screen is currently active
+  const [currentScreen, setCurrentScreen] = useState("Products");
+
   return (
     <View style={styles.container}>
         {/* <MainScreen/> */}
@@ -28,8 +35,15 @@ export default function App() {
         {/* <PhotoScreen/> */}
         {/* <UserScreen/> */}
         {/* <DataScreen/> */}
-        <LocalScreen/>
-        </View>
+        {/* <LocalScreen/> */}
+        
+        {/* Conditionally render the screens based on state */}
+        {currentScreen === "Products" ? (
+          <ProductsScreen setScreen={setCurrentScreen} />
+        ) : (
+          <ProductsDetailScreen setScreen={setCurrentScreen} />
+        )}
+    </View>
   );
 }
 
