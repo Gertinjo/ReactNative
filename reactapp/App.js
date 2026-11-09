@@ -18,13 +18,14 @@ import ProductsScreen from './screen/ProductsScreen';
 import ProductsDetailScreen from './screen/ProductsDetailScreen'; // Added this import
 import { NavigationContainer } from '@react-navigation/native';
 import StackNavigator from './navigator/StackNavigator';
+import SwiperScreen from './screen/SwiperScreen';
 export default function App() {
   // Track which screen is currently active
   const [currentScreen, setCurrentScreen] = useState("Products");
 
   return (
-            <NavigationContainer>
-          <StackNavigator/> 
+             <NavigationContainer>
+            <SwiperScreen/> 
         </NavigationContainer>
     // <View style={styles.container}>
     //     {/* <MainScreen/> */}
@@ -51,6 +52,7 @@ export default function App() {
     //       <StackNavigator/> 
     //     </NavigationContainer>
     // </View>
+      
   );
 }
 
