@@ -1,0 +1,30 @@
+{
+    "popularproducts": [
+        {
+            "id": 1,
+            "name": "Ipad 11",
+            "category": "Tablet",
+            "price": "$4562",
+            "image": "https://www.apple.com/v/ipad-11/specs/d/images/meta/ipad-11_specs__bdyzr0g7cz9e_og.png",
+            "description": "The iPad (11th generation), released by Apple on March 12, 2025, is an entry-level tablet powered by the Apple A16 Bionic chip"
+
+            
+        },
+        {
+            "id": 2,
+            "name": "Iphone Duo",
+            "category": "Foldable",
+            "price": "$1232",
+            "image": "https://www.apple.com/v/iphone-duo/f/images/overview/media-hero/hero_endframe__gdt3l3spaqie_large.jpg",
+            "description": "The iPhone Duo is Apple's first book-style foldable smartphone, released on October 23, 2026."
+        },
+        {
+            "id": 3,
+            "name": "Iphone 18",
+            "category": "Phone",
+            "price": "$1232",
+            "image": "https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/article/Apple-iPhone-18-Pro-2up-260909_inline.jpg.large.jpg",
+            "description": "The Apple iPhone 18 Pro Max is a flagship smartphone featuring a large screen, an upgraded A20 Pro chip, and a variable-aperture camera system"            
+        }
+    ]
+}
