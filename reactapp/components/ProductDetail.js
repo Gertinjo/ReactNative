@@ -1,9 +1,14 @@
 import React from "react";
-import { Text, View, StyleSheet, Image } from "react-native";
+import { Text, View, StyleSheet, Image, TouchableOpacity } from "react-native";
 
 const ProductDetail = (props) => {
   return (
-    <View style={styles.container}>
+    <TouchableOpacity
+      activeOpacity={0.7}
+      onPress={props.onPress}
+      disabled={!props.onPress}
+      style={styles.container}
+    >
       <View style={styles.cardWrapper}>
         <View style={styles.imgWrapper}>
             <Image source={props.image} style={styles.img} />  
@@ -16,7 +21,7 @@ const ProductDetail = (props) => {
           <Text>{props.stock}</Text>
         </View>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 
@@ -33,6 +38,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   imgWrapper: {
+    width: 80, 
     marginRight: 12,
   },
   img: {
@@ -49,5 +55,6 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
 });
+
 
 export default ProductDetail;

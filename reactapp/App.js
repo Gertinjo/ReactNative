@@ -19,14 +19,29 @@ import ProductsDetailScreen from './screen/ProductsDetailScreen'; // Added this 
 import { NavigationContainer } from '@react-navigation/native';
 import StackNavigator from './navigator/StackNavigator';
 import SwiperScreen from './screen/SwiperScreen';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+const Stack = createNativeStackNavigator();
+
 export default function App() {
   // Track which screen is currently active
   const [currentScreen, setCurrentScreen] = useState("Products");
 
   return (
-             <NavigationContainer>
-            <SwiperScreen/> 
-        </NavigationContainer>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="SwiperScreen"
+          component={SwiperScreen}
+          options={{ title: 'Products' }}
+        />
+        <Stack.Screen
+          name="ProductsDetailScreen"
+          component={ProductsDetailScreen}
+          options={{ title: 'Product Details' }}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
     // <View style={styles.container}>
     //     {/* <MainScreen/> */}
     //     {/* <ListScreen/> */}
